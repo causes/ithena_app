@@ -9,6 +9,6 @@
 	"connect-mongodb": "1.0.0",
 	"jade": "0.15.3",
 	"socket.io": "0.8.2",
-	"cookies":"0.1.6",
+	"cookies":"0.1.6"
   }
 }
