@@ -1,0 +1,8 @@
+{
+  "name": "muyiwajs",
+  "version": "0.0.1",
+  "dependencies": {
+		"connect": "1.6.4",
+		"express": "2.4.6",
+  }
+}
