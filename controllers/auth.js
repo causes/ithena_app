@@ -2,7 +2,7 @@
 module.exports = function(server) {
   //Landing page
   server.get('/', function(req,res) {
-      res.local('title', 'Riiple');
+      res.local('title', 'Muyiwa JS');
       res.local('description', 'Page Description');
       res.local('analyticssiteid', 'XXXXXXX');
       res.local('source', 'landing');
