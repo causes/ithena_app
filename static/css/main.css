@@ -331,4 +331,6 @@ html{
 
 .center {
   text-align: center;
+  width:500px;
+  line-height:20px;
 }
