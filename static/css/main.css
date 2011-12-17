@@ -327,6 +327,21 @@ html{
 #about-me{
   width:550px;
   line-height:20px;
+  float:left;
+  margin-right:20px;
+}
+
+#contact{
+  float:left;
+}
+
+#copyright{
+  clear:both;
+}
+
+.spacer{
+  min-height:150px;
+  width:100%;
 }
 
 .center {
