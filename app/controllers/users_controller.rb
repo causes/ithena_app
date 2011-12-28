@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  before_filter :auth, :only => [:index, :edit, :update]
   # GET /users
   # GET /users.json
   def index
@@ -85,6 +86,8 @@ class UsersController < ApplicationController
   private
     
     def auth
-      deny_access unless signed_in?
+      if current_user.nil? #from application controller
+        deny_access
+      end
     end
 end

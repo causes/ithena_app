@@ -1,4 +1,4 @@
-<h1 style="font-size:20px;">Company Sign Up</h1>
+<h2>Company Sign Up</h2>
 <br/>
 <%= form_for(@company) do |f| %>
   <% if @company.errors.any? %>
@@ -12,19 +12,19 @@
       </ul>
     </div>
   <% end %>
-	<h1>Company Information</h1>
+	<h4>Company Information</h4>
 	<hr>
 	<div class="field">
-		<%= f.label :name, "Company Name" %><br />
-    <%= f.text_field :name %>
+		<%= f.label :company_name, "Company Name" %><br />
+    <%= f.text_field :company_name %>
   </div>
 	<div class="field">
-    <%= f.label :email, "Company Email" %><br />
-    <%= f.text_field :email %>
+    <%= f.label :company_email, "Company Email" %><br />
+    <%= f.text_field :company_email %>
   </div>
 	<div class="field">
 	<br/>
-	<h1>Account Administrator</h1>
+	<h4>Account Administrator</h4>
 	<hr>
 	<div class="field">
 		<%= f.label :name %><br />
@@ -35,7 +35,7 @@
     <%= f.text_field :mobile_no %>
   </div>
 	<div class="field">
-		<%= f.label :mobile_no_confirmation %><br />
+		<%= f.label :mobile_no_confirmation, "Retype Mobile No" %><br />
     <%= f.text_field :mobile_no_confirmation %>
   </div>
 	<div class="field">
@@ -43,15 +43,11 @@
     <%= f.text_field :email %>
   </div>
 	<div class="field">
-    <%= f.label :phone_manufacturer %><br />
-    <%= select_tag(:phone_manufacturer, options_for_select([['Select:', -1], ['Iphone', 1], ['Nokia', 2],['Samsung', 3]])) %>
-  </div>
-	<div class="field">
 		<%= f.label :password %><br />
 	  <%= f.password_field :password %>
 	</div>
 	<div class="field">
-		<%= f.label :password_confirmation, "Password Confirmation" %><br />
+		<%= f.label :password_confirmation, "Retype Password" %><br />
 	    <%= f.password_field :password_confirmation %>
 	</div>
 	<%= link_to 'Add more admins', "#" %>

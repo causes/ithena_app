@@ -6,6 +6,11 @@ class ApplicationController < ActionController::Base
     clear_return_to
   end
   
+  def deny_access
+    store_location
+    redirect_to signin_path, :notice => "Please sign in to access this page."
+  end
+  
   private
   
   def current_user

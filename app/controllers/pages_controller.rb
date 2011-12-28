@@ -9,11 +9,6 @@ class PagesController < ApplicationController
 
   def about
     @title = "About"
-    if current_user.nil? #from application controller
-      redirect_to new_session_url
-    else
-      @cur = current_user.name
-    end
   end
 
   def contact

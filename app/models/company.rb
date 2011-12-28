@@ -1,5 +1,5 @@
 class Company < ActiveRecord::Base
-  attr_accessible :company_name, :company_email, :name, :mobile_no, :email, :password, :password_confirmation, :level
+  attr_accessible :company_name, :company_email, :name, :mobile_no, :mobile_no_confirmation, :email, :password, :password_confirmation, :level
   has_secure_password
   validates_presence_of :password, :on => :create
 
