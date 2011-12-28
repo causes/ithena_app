@@ -344,7 +344,7 @@ a {
 
 /* Main */
 #main{
-    clear:both;
+    width:980px;
 }
 
 /* Sign in Box on the home page */
@@ -364,11 +364,6 @@ a {
 
 .float-right {
     float:right;
-}
-
-/* Clear both from floats */
-.clear {
-    clear:both;
 }
 
 /* Spacer */

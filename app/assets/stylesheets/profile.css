@@ -1,0 +1,237 @@
+/** THIS HOLDS ALL THE CONTENT ON THE PAGE ****/
+#profile-content
+{
+	margin-top: -160px;
+	margin-bottom:10px;
+	width:981px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+	overflow:hidden;
+	margin-bottom:50px;	
+	zoom:1;
+}
+
+/** THIS HOLDS THE LINKS THAT CHANGE THE CONTENT ON THE PAGE **/
+/*the z-index is set so it looks like the links spill into the data*/
+.profile-navigator
+{
+	margin-right:-12px;
+	z-index:10;
+	position:relative;
+}
+	.profile-navigator a
+	{
+		text-decoration:none;
+	}
+
+	.profile-navigator a {
+		display: block;
+		min-width: 40px;
+	}
+
+	.profile-navigator a:hover {
+		background: #EFEFEF;
+		border-right: none;
+	}
+
+	.profile-navigator li.panel a.active  {
+		 background-color: #FFF;
+		 border-right: none;
+		 margin-right:-1px;
+		 font-weight: bold;
+	}
+
+	.profile-navigator li.panel a {
+		background: #F2F2F2;
+		border:1px solid #ccc;
+		border-bottom: none;
+		border-right: none;
+		text-align: left;
+		padding: 10px;
+		font-size: 0.9em;
+		color: #333;
+	}
+
+	.profile-navigator li.panel:last-child a {
+		border-bottom: 1px solid #CCC;
+	}
+
+	.profile-navigator li.resource a {
+		background-color:#666;
+		color: #FFF;
+		text-decoration: underline;
+		-moz-box-shadow:-1px 1px 4px 0 #222 inset;
+		box-shadow: inset -1px 1px 4px 0px #222;
+		-webkit-box-shadow: inset -1px 1px 4px 0px #222;
+
+	}
+
+.facebook_icon_small
+{
+	height:19px;
+	padding-left:19px;
+	width:0;
+	background-position: -13px -667px;
+}
+
+.twitter_icon_small
+{
+	height:19px;
+	padding-left:19px;
+	width:0;
+	background-position: -13px -647px;
+}
+
+.right-arrow_icon
+{
+	height:19px;
+	padding-left:19px;
+	width:0;
+	background-position: -13px -875px;
+}
+
+/**** THIS CONTAINS THE SECONDARY MAIN COMMENTS ***/
+#secondary-content
+{
+	float:left;
+	width:787px;
+	min-height:600px;
+	/*border-right:1px solid black;*/
+}
+
+/**** THIS IS AT THE TOP OF THE PAGE AND CONTAINS THE USERS PROFILE BLURB ****/
+#profile-blurb
+{
+	padding:5px;
+	border:none;
+}
+
+	#profile-blurb h1
+	{
+		font-size:15px;
+		font-weight:bold;
+	}
+
+#bio
+{
+}
+#first-col
+{
+	float:left;
+	padding-right:10px;
+}
+
+/***** THIS IS WHERE THE MAIN RECENT INFO WOULD GO ***/
+#profile-box
+{
+	background-color:#F9F9F9;
+	/*border:1px solid #ccc;*/
+	overflow:hidden;
+	position:relative;
+	width:179px;
+}
+
+/***** DIV WHERE THE PROFILE PIC SITS ****/
+.profile-pic
+{
+	float:left;
+	width:179px;
+	margin-right:10px;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+
+/*** THIS CONTAINS THE STREAM TABS BACKGROUND ****/
+.streams-tab-background
+{
+	background-color:#F8F8F8;
+	background-color:#F2F2F2;
+	float:left;
+	padding-bottom:0;
+	position:relative;
+	width:519px;
+}
+
+	/**** THIS CONTAINS THE STREAM TABS ***/
+	.stream-tabs
+	{
+		border-bottom:1px solid #EEE;
+		border-bottom: 1px solid #CCC;
+		clear:both;
+		display:block;
+		height:30px;
+		list-style-type:none;
+		margin:0px;
+		padding:0px 10px;
+	}
+
+	.stream-tabs .stream-tab
+	{
+		border-top-left-radius:4px 4px;
+		border-top-right-radius:4px 4px;
+		cursor:pointer;
+		float:left;
+		margin:0px;
+		padding:0px;
+		position:relative;
+	}
+
+	.stream-tabs .tab-text
+	{
+		-webkit-border-radius:inherit;
+		border:1px solid transparent;
+		border-radius:inherit;
+		cursor:pointer;
+		display:block;
+		line-height:24px;
+		overflow:hidden;
+		padding:3px 10px 2px;
+		text-decoration:none;
+		text-shadow:white 0px 1px 0px;
+		font-size:13px;
+	}
+
+	.stream-tab-active
+	{
+		background-color:#fff;
+		color:black;
+		font-weight:bold;
+		border: 1px solid #CCC;
+		border-bottom:none;
+	}
+
+/*** THIS IS WHERE THE FEEDS WOULD GO ***/
+#feeds
+{
+	width:519px;
+	min-height:300px;
+	float:left;
+	background-color:#fff;
+	-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;
+	/*border:1px dotted #B3B3B3;*/
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+	#feeds-data
+	{
+		border: 1px solid #CCC;
+	}
+
+/***** THIS IS THE THIRD COLUMN ON THE PAGE ***/
+#third-col
+{
+	background-color:#Fff;
+	background-color:#E8F3FB;
+	background-color:#EDF2F2;
+	float:right;
+	overflow:hidden;
+	padding:10px;
+	position:relative;
+	border:1px dotted #B3B3B3;
+	border-left:3px solid #5599BB;
+	border-left:3px solid #B3B3B3;
+	width:234px;
+	min-height:600px;
+}

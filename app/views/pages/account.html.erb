@@ -1,2 +1,37 @@
-<h1>Pages#account</h1>
-<p>Find me in app/views/pages/account.html.erb</p>
+<div id="page_content">
+	<div id="left-col">
+		<p id="navcontainer" class="hidden">adpage</p>
+		<p id="navcol" class="hidden">gettingStarted</p>
+		<div id="nav_col" class="smooth">
+			<ul class="feed_filter selectable">
+				<li><a href="/publishers/gettingstarted" id="start" class="filter_link require_user smooth selected">Topup</a></li>
+				<li><a href="/publishers/websites" id="websites" class="filter_link smooth">Edit Account</a></li>
+				<li><a href="/publishers/codegen" id="codegen" class="filter_link smooth">Transaction History</a></li>
+				<li><a href="/publishers/examples" id="examples" class="filter_link smooth">Bonuses</a></li>
+				<script>//Used to get the source and determine which link is selected
+					var navColSource = document.getElementById('navcol').innerHTML;
+						if(navColSource == "gettingStarted"){
+						  var element = document.getElementById('start');
+						  element.setAttribute('class', 'filter_link require_user smooth selected');
+						}
+						else if(navColSource == "websites"){
+						  var element = document.getElementById('websites');
+						  element.setAttribute('class', 'filter_link require_user smooth selected');
+						}
+						else if(navColSource == "codegen"){
+						  var element = document.getElementById('codegen');
+						  element.setAttribute('class', 'filter_link require_user smooth selected');
+						}
+						else if(navColSource == "examples"){
+						  var element = document.getElementById('examples');
+						  element.setAttribute('class', 'filter_link require_user smooth selected');
+						}
+						else if(navColSource == "showcase"){
+						  var element = document.getElementById('showcase');
+						  element.setAttribute('class', 'filter_link require_user smooth selected');
+						}
+				</script>
+			</ul>
+		</div>
+	</div>
+</div>
