@@ -13,7 +13,7 @@
     </div>
   <% end %>
 	<h4>Company Information</h4>
-	<hr>
+	<hr/>
 	<div class="field">
 		<%= f.label :company_name, "Company Name" %><br />
     <%= f.text_field :company_name %>
@@ -22,10 +22,9 @@
     <%= f.label :company_email, "Company Email" %><br />
     <%= f.text_field :company_email %>
   </div>
-	<div class="field">
 	<br/>
 	<h4>Account Administrator</h4>
-	<hr>
+	<hr/>
 	<div class="field">
 		<%= f.label :name %><br />
     <%= f.text_field :name %>
@@ -48,7 +47,7 @@
 	</div>
 	<div class="field">
 		<%= f.label :password_confirmation, "Retype Password" %><br />
-	    <%= f.password_field :password_confirmation %>
+	   <%= f.password_field :password_confirmation %>
 	</div>
 	<%= link_to 'Add more admins', "#" %>
 	

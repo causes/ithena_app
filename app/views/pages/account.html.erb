@@ -34,4 +34,28 @@
 			</ul>
 		</div>
 	</div>
+	<div id="middle-column">
+		<div class="personal-numbers">
+			<%= @user.mobile_alias %>
+			<%= form_for(@user) do |f| %>
+				<% if @user.errors.any? %>
+					<div id="error_explanation">
+						<h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+						<ul>
+							<% @user.errors.full_messages.each do |msg| %>
+								<li><%= msg %></li>
+			      	<% end %>
+						</ul>
+			    </div>
+				<% end %>
+				<div class="field">
+					<%= f.label :topup_amount, "Enter Amount" %><br />
+				    <%= f.password_field :topup_amount ,options = { :size => 10 } %>
+				</div>
+			  	<div class="actions">
+			    	<%= submit_tag "Topup" %>
+			  	</div>
+			<% end %>
+		</div>
+	</div>
 </div>

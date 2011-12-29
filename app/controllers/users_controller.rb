@@ -17,7 +17,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html { render "pages/account" } #account.html.erb
       format.json { render json: @user }
     end
   end
@@ -26,7 +26,7 @@ class UsersController < ApplicationController
   # GET /users/new.json
   def new
     @user = User.new
-    @company = Company.new
+    @company = Company.new # we want to signup companies and personal accounts on same screen
 
     respond_to do |format|
       format.html # new.html.erb
@@ -82,12 +82,4 @@ class UsersController < ApplicationController
       format.json { head :ok }
     end
   end
-  
-  private
-    
-    def auth
-      if current_user.nil? #from application controller
-        deny_access
-      end
-    end
 end

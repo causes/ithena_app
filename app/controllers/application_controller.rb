@@ -1,5 +1,11 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
+  
+  def auth
+    if current_user.nil? #from application controller
+      deny_access
+    end
+  end
     
   def redirect_back_or(default)
     redirect_to(session[:return_to] || default)
