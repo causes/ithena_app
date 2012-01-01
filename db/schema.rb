@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111228054605) do
+ActiveRecord::Schema.define(:version => 20120101214657) do
 
   create_table "companies", :force => true do |t|
     t.datetime "created_at"
@@ -24,6 +24,13 @@ ActiveRecord::Schema.define(:version => 20111228054605) do
     t.string   "password_digest"
     t.string   "level"
     t.string   "mobile_no_confirmation"
+  end
+
+  create_table "mobiles", :force => true do |t|
+    t.string   "mobile_number"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "users", :force => true do |t|

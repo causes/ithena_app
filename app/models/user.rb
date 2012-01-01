@@ -13,4 +13,6 @@ class User < ActiveRecord::Base
                         :format   => { :with => email_regex },
                         :uniqueness => { :case_sensitive => false }
   validates :mobile_no, :presence => true
+  
+  has_many :mobiles, :dependent => :destroy
 end

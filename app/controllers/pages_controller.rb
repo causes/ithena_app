@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   before_filter :auth, :only => [:account]
+  
   def home
     @title = "Home"
   end
