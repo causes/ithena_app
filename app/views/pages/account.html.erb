@@ -4,10 +4,10 @@
 		<p id="navcol" class="hidden">gettingStarted</p>
 		<div id="nav_col" class="smooth">
 			<ul class="feed_filter selectable">
-				<li><a href="/publishers/gettingstarted" id="start" class="filter_link require_user smooth selected">Topup</a></li>
-				<li><a href="/publishers/websites" id="websites" class="filter_link smooth">Edit Account</a></li>
-				<li><a href="/publishers/codegen" id="codegen" class="filter_link smooth">Transaction History</a></li>
-				<li><a href="/publishers/examples" id="examples" class="filter_link smooth">Bonuses</a></li>
+				<li><a href="/account" id="start" class="filter_link require_user smooth selected">Topup</a></li>
+				<li><a href=<%= edit_user_path(@user)%> id="websites" class="filter_link smooth">Edit Account</a></li>
+				<li><a href="/history" id="codegen" class="filter_link smooth">Transaction History</a></li>
+				<li><a href="/bonuses" id="examples" class="filter_link smooth">Bonuses</a></li>
 				<script>//Used to get the source and determine which link is selected
 					var navColSource = document.getElementById('navcol').innerHTML;
 						if(navColSource == "gettingStarted"){
@@ -35,7 +35,7 @@
 		</div>
 	</div>
 	<div id="middle-column">
-		<h3>Mobile Numbers</h3>
+		<h3>Your Numbers</h3>
 		<table>
 			<tr>
 				<th>Alias</th>
@@ -44,19 +44,37 @@
 		    <th>Modify</th>
 		  </tr>
 			<tr>
-			  <td><%= text_field_tag 'Alias', @user.mobile_alias, options={:size=>'10'} %></td>
-			  <td><%= text_field_tag 'Mobile Number', @user.mobile_no, options={:size=>'10'} %></td>
-			  <td><%= text_field_tag 'Topup', 'Enter Amount', options={:size=>'10'} %></td>
-			  <td><%= link_to 'Edit', edit_user_path(@user) %></td>
+				<%= form_for @user do |f| %>
+			  	<td><%= f.text_field :mobile_alias, options={:size=>'10'} %></td>
+				  <td><%= f.text_field :mobile_no, options={:size=>'10'} %></td>
+				  <td><%= text_field_tag 'Topup', 'Enter Amount', options={:size=>'10'} %></td>
+				  <td><%= f.submit 'Edit' %></td>
+				<% end %>
 			</tr>
-		<% unless @user.mobiles.empty? %>
-			<%= render @mobiles %>
-		<% end %>
+			<% unless @user_mobiles.empty? %>
+				<% @user_mobiles.each do |mobile| %>
+					<tr>
+					  <td><%= text_field_tag '', mobile.mobile_alias, options={:size=>'10'} %></td>
+					  <td><%= text_field_tag '', mobile.mobile_number, options={:size=>'10'} %></td>
+						<td><%= text_field_tag 'Topup', 'Enter Amount', options={:size=>'10'} %></td>
+					  <td><%= submit_tag 'Edit' %></td>
+					</tr>
+				<% end %>
+			<% end %>
+		</table>
+		<h3>Add a number</h3>
+		<table>
 			<tr>
-			  <td><%= text_field_tag 'Alias', 'Empty', options={:size=>'10'} %></td>
-			  <td><%= text_field_tag 'Mobile Number', 'Empty', options={:size=>'10'} %></td>
-			  <td><%= text_field_tag 'Topup', 'Enter Amount', options={:size=>'10'} %></td>
-			  <td><%= link_to 'Edit', edit_user_path(@user) %></td>
+				<th>Create Alias</th>
+		    <th>Number</th>
+		    <th></th>
+		  </tr>
+			<tr style="border:1px solid grey;">
+				<%= form_for @mobile do |f| %>
+					<td><%= f.text_field :mobile_alias, options={:size=>'10'} %></td>
+					<td><%= f.text_field :mobile_number, options={:size=>'10'} %></td>
+					<td><%= f.submit 'Add Mobile'%></td>
+				<% end %>
 			</tr>
 		</table>
 	</div>

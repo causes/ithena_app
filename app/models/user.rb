@@ -2,6 +2,7 @@ class User < ActiveRecord::Base
   #Note that password actually refers to pin
   attr_accessible :name, :email, :password, :password_confirmation, :mobile_no, :mobile_no_confirmation, :mobile_alias,
                   :network, :month, :day, :year, :phone_manufacturer, :mobile_plan
+  has_many :mobiles, :dependent => :destroy
   has_secure_password
   validates_presence_of :password, :on => :create
   
@@ -14,5 +15,4 @@ class User < ActiveRecord::Base
                         :uniqueness => { :case_sensitive => false }
   validates :mobile_no, :presence => true
   
-  has_many :mobiles, :dependent => :destroy
 end

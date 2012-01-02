@@ -1,5 +1,5 @@
 class Mobile < ActiveRecord::Base
-  attr_accessible :mobile_number
+  attr_accessible :mobile_number, :mobile_alias
   
   belongs_to :user
   

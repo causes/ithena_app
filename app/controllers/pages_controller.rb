@@ -9,6 +9,8 @@ class PagesController < ApplicationController
     @title = "Account"
     #before filter already ensures we have a current user
     @user = current_user
+    @user_mobiles = current_user.mobiles
+    @mobile = Mobile.new
   end
 
   def about
