@@ -15,6 +15,8 @@ class UsersController < ApplicationController
   # GET /users/1.json
   def show
     @user = User.find(params[:id])
+    @user_mobiles = @user.mobiles
+    @mobile = Mobile.new
 
     respond_to do |format|
       format.html { render "pages/account" } #account.html.erb
