@@ -4,7 +4,8 @@ IthenaApp::Application.routes.draw do
 
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
-  resources :mobiles, :only => [:create, :destroy]
+  resources :mobiles, :only => [:create, :destroy, :update]
+  resources :credit_cards, :only => [:create, :destroy, :update]
 
   match '/account', :to => 'pages#account'
   match '/about',   :to => 'pages#about'

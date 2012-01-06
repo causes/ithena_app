@@ -17,6 +17,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @user_mobiles = @user.mobiles
     @mobile = Mobile.new
+    @card = Card.new
 
     respond_to do |format|
       format.html { render "pages/account" } #account.html.erb

@@ -3,6 +3,9 @@ class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation, :mobile_no, :mobile_no_confirmation, :mobile_alias,
                   :network, :month, :day, :year, :phone_manufacturer, :mobile_plan
   has_many :mobiles, :dependent => :destroy
+  has_many :cards, :dependent => :destroy
+  has_one :credit_card, :dependent => :destroy
+  
   has_secure_password
   validates_presence_of :password, :on => :create
   

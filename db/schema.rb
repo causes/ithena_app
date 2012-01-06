@@ -11,7 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120101232327) do
+ActiveRecord::Schema.define(:version => 20120106014940) do
+
+  create_table "cards", :force => true do |t|
+    t.integer  "card_number"
+    t.string   "card_type"
+    t.string   "expdate_month"
+    t.string   "expdate_year"
+    t.string   "cvv_number"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+  end
 
   create_table "companies", :force => true do |t|
     t.datetime "created_at"
@@ -24,6 +35,17 @@ ActiveRecord::Schema.define(:version => 20120101232327) do
     t.string   "password_digest"
     t.string   "level"
     t.string   "mobile_no_confirmation"
+  end
+
+  create_table "credit_cards", :force => true do |t|
+    t.string   "card_number"
+    t.string   "card_type"
+    t.string   "expdate_month"
+    t.string   "expdate_year"
+    t.string   "cvv_number"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   create_table "mobiles", :force => true do |t|

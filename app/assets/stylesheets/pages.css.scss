@@ -6,8 +6,19 @@
 }
 
 #middle-column {
-    width:500px;
+    width:568px;
     min-height:300px;
+    float:left;
+}
+
+#right-column{
+    width:250px;
+    float:right;
+    min-height:300px;
+    text-align:center;
+    border:1px dotted black;
+    padding:10px;
+    background-color: #EEE;
 }
 
 .personal-numbers {

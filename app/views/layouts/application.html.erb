@@ -29,7 +29,24 @@
 				<div class="flash <%= key %>"><%= value %></div>
 		  <% end %>
 		</section>
-		<div class="clearfix">	
+		<div class="clearfix">
+			<% if !@current_user.nil? %>
+				<div id="page_content">
+					<div id="left-col">
+						<p id="navcontainer" class="hidden">adpage</p>
+						<p id="navcol" class="hidden">gettingStarted</p>
+						<div id="nav_col" class="smooth">
+							<ul class="feed_filter selectable">
+								<li><a href="/account" id="start" class="filter_link require_user smooth selected">Topup</a></li>
+								<li><a href=<%= edit_user_path(@current_user)%> id="websites" class="filter_link smooth">Edit Account</a></li>
+								<li><a href="/history" id="codegen" class="filter_link smooth">Transaction History</a></li>
+								<li><a href="/bonuses" id="examples" class="filter_link smooth">Bonuses</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			<% else %>
+			<% end %>	
   		<div id="main" role="main">
 				<%= yield %>
   		</div>
