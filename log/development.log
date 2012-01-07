@@ -1,0 +1,1085 @@
+
+
+Started GET "/users" for 127.0.0.1 at 2012-01-06 21:50:53 -0600
+  Processing by UsersController#index as HTML
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 2ms
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-01-06 21:50:56 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (96.8ms)
+Compiled application.css  (37ms)  (pid 6713)
+Compiled Dash.css  (25ms)  (pid 6713)
+Compiled aux.css  (161ms)  (pid 6713)
+Compiled button.css  (0ms)  (pid 6713)
+Compiled companies.css  (150ms)  (pid 6713)
+Compiled dialog.css  (5ms)  (pid 6713)
+Compiled emle.css  (37ms)  (pid 6713)
+Compiled osx.css  (1ms)  (pid 6713)
+Compiled pages.css  (35ms)  (pid 6713)
+Compiled profile.css  (39ms)  (pid 6713)
+Compiled reset.css  (651ms)  (pid 6713)
+Compiled scaffolds.css  (200ms)  (pid 6713)
+Compiled screen.css  (1ms)  (pid 6713)
+Compiled sessions.css  (40ms)  (pid 6713)
+Compiled style.css  (948ms)  (pid 6713)
+Compiled tipsy.css  (40ms)  (pid 6713)
+Compiled users.css  (28ms)  (pid 6713)
+Compiled application.js  (147ms)  (pid 6713)
+Compiled jquery.js  (43ms)  (pid 6713)
+Compiled jquery_ujs.js  (15ms)  (pid 6713)
+Compiled companies.js  (2021ms)  (pid 6713)
+Compiled emle.js  (48ms)  (pid 6713)
+Compiled modernizr-2.0.6.min.js  (102ms)  (pid 6713)
+Compiled pages.js  (103ms)  (pid 6713)
+Compiled sessions.js  (78ms)  (pid 6713)
+Compiled users.js  (137ms)  (pid 6713)
+Rendered layouts/_header.html.erb (23.0ms)
+Rendered layouts/_footer.html.erb (8.7ms)
+Completed 200 OK in 9102ms (Views: 9101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dialog.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /dialog.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/button.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /button.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /companies.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/aux.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /aux.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/Dash.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /Dash.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/emle.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /emle.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/osx.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /osx.css - 304 Not Modified (42ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /reset.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /pages.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /screen.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /scaffolds.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /profile.css - 304 Not Modified (54ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /sessions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /users.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/tipsy.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:06 -0600
+Served asset /tipsy.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-06 21:51:07 -0600
+Served asset /style.css - 200 OK (27ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 21:51:07 -0600
+Served asset /jquery.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2012-01-06 21:51:07 -0600
+Served asset /companies.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/emle.js?body=1" for 127.0.0.1 at 2012-01-06 21:51:07 -0600
+Served asset /emle.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/modernizr-2.0.6.min.js?body=1" for 127.0.0.1 at 2012-01-06 21:51:07 -0600
+Served asset /modernizr-2.0.6.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-06 21:51:07 -0600
+Served asset /pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-01-06 21:51:07 -0600
+Served asset /sessions.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-01-06 21:51:07 -0600
+Served asset /users.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 21:51:07 -0600
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-01-06 21:51:07 -0600
+Served asset /logo.png - 304 Not Modified (329ms)
+
+
+Started GET "/emle/index" for 127.0.0.1 at 2012-01-06 21:51:14 -0600
+  Processing by EmleController#index as HTML
+Completed 500 Internal Server Error in 81ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/emle_controller.rb:3:in `index'
+
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.5ms)
+  [1m[36m (21.6ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (8.3ms)[0m  CREATE TABLE "cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "card_number" integer, "card_type" varchar(255), "expdate_month" varchar(255), "expdate_year" varchar(255), "cvv_number" varchar(255), "created_at" datetime, "updated_at" datetime, "user_id" integer) 
+  [1m[36m (25.1ms)[0m  [1mCREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime, "company_name" varchar(255), "company_email" varchar(255), "name" varchar(255), "mobile_no" varchar(255), "email" varchar(255), "password_digest" varchar(255), "level" varchar(255), "mobile_no_confirmation" varchar(255)) [0m
+  [1m[35m (16.8ms)[0m  CREATE TABLE "credit_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "card_number" varchar(255), "card_type" varchar(255), "expdate_month" varchar(255), "expdate_year" varchar(255), "cvv_number" varchar(255), "created_at" datetime, "updated_at" datetime, "user_id" integer) 
+  [1m[36m (9.4ms)[0m  [1mCREATE TABLE "mobiles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "mobile_number" varchar(255), "user_id" integer, "created_at" datetime, "updated_at" datetime, "mobile_alias" varchar(255)) [0m
+  [1m[35m (49.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "password_digest" varchar(255), "mobile_no" varchar(255), "mobile_no_confirmation" varchar(255), "mobile_alias" varchar(255), "mobile_plan" varchar(255), "month" varchar(255), "day" varchar(255), "year" varchar(255), "network" varchar(255), "phone_manufacturer" varchar(255)) 
+  [1m[36m (2.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (9.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (4.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120106014940')[0m
+  [1m[35m (3.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20111225002056')
+  [1m[36m (8.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111226065937')[0m
+  [1m[35m (38.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20111226073619')
+  [1m[36m (18.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111226075635')[0m
+  [1m[35m (1.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20111227225257')
+  [1m[36m (40.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111227230143')[0m
+  [1m[35m (2.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20111228025347')
+  [1m[36m (15.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111228032330')[0m
+  [1m[35m (12.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20111228033131')
+  [1m[36m (10.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111228040800')[0m
+  [1m[35m (1.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20111228054059')
+  [1m[36m (2.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111228054428')[0m
+  [1m[35m (11.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20111228054605')
+  [1m[36m (2.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120101214657')[0m
+  [1m[35m (7.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120101232327')
+  [1m[36m (3.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120103010228')[0m
+  [1m[35m (23.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120103065039')
+  [1m[36m (6.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120106014913')[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/emle/index" for 127.0.0.1 at 2012-01-06 21:52:27 -0600
+  Processing by EmleController#index as HTML
+  [1m[36mUser Load (38.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 404 Not Found in 366ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=4):
+  app/controllers/emle_controller.rb:3:in `index'
+
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2012-01-06 21:55:01 -0600
+  Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" 
+Rendered users/index.html.erb within layouts/application (1.9ms)
+Rendered layouts/_header.html.erb (6.0ms)
+Rendered layouts/_footer.html.erb (3.7ms)
+Completed 200 OK in 724ms (Views: 721.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/aux.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:02 -0600
+Served asset /aux.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/button.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:02 -0600
+Served asset /button.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:02 -0600
+Served asset /companies.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/Dash.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:02 -0600
+Served asset /Dash.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:02 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dialog.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:02 -0600
+Served asset /dialog.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/emle.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:02 -0600
+Served asset /emle.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/osx.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /osx.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /pages.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /profile.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /reset.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /screen.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /sessions.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /style.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/tipsy.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /tipsy.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /users.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /jquery.js - 304 Not Modified (71ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /companies.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/emle.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /emle.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/modernizr-2.0.6.min.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /modernizr-2.0.6.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /sessions.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /users.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /pages.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-01-06 21:55:03 -0600
+Served asset /logo.png - 304 Not Modified (9ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (117.7ms)
+Rendered companies/_form.html.erb (32.5ms)
+Rendered users/new.html.erb within layouts/application (154.2ms)
+Rendered layouts/_header.html.erb (4.7ms)
+Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 279ms (Views: 199.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/Dash.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /Dash.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/aux.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /aux.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dialog.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /dialog.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /companies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/button.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emle.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /emle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /profile.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/osx.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /osx.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tipsy.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:05 -0600
+Served asset /tipsy.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emle.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /emle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /companies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr-2.0.6.min.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /modernizr-2.0.6.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-01-06 21:55:06 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-01-06 21:55:42 -0600
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+LSa8taJggPankVfrXKFXSu0H2ya2BELEccvYkot79Y=", "user"=>{"name"=>"Muyiwa Jimi-Salami", "month"=>"3", "day"=>"3", "year"=>"2008", "mobile_no"=>"12345", "mobile_no_confirmation"=>"12344", "network"=>"2", "phone_manufacturer"=>"3", "mobile_alias"=>"Iphone", "mobile_plan"=>"2", "email"=>"ojimisa@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('ojimisa@gmail.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (50.9ms)[0m  INSERT INTO "users" ("created_at", "day", "email", "mobile_alias", "mobile_no", "mobile_no_confirmation", "mobile_plan", "month", "name", "network", "password_digest", "phone_manufacturer", "updated_at", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Sat, 07 Jan 2012 03:55:43 UTC +00:00], ["day", "3"], ["email", "ojimisa@gmail.com"], ["mobile_alias", "Iphone"], ["mobile_no", "12345"], ["mobile_no_confirmation", "12344"], ["mobile_plan", "2"], ["month", "3"], ["name", "Muyiwa Jimi-Salami"], ["network", "2"], ["password_digest", "$2a$10$WOBEo4ZzVwsMM9mTri4Oeu9THaqDmeuKeIGuvD3Cgga70RaS5Lj6O"], ["phone_manufacturer", "3"], ["updated_at", Sat, 07 Jan 2012 03:55:43 UTC +00:00], ["year", "2008"]]
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 367ms
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-01-06 21:55:43 -0600
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (2.1ms)[0m  SELECT COUNT(*) FROM "mobiles" WHERE "mobiles"."user_id" = 1
+Rendered pages/account.html.erb within layouts/application (686.8ms)
+Completed 500 Internal Server Error in 1244ms
+
+ActionView::Template::Error (undefined method `cards_path' for #<#<Class:0x007f8896446328>:0x007f8896441d28>):
+    89: 				</div>
+    90: 			<% end %>
+    91: 			<% else %>
+    92: 				 <%= form_for(@card) do |f| %>
+    93: 					<% if @card.errors.any? %>
+    94: 						<div id="error_explanation">
+    95: 							<h2><%= pluralize(@card.errors.count, "error") %> prohibited this card from being saved:</h2>
+  app/views/pages/account.html.erb:92:in `_app_views_pages_account_html_erb___3409010893623955377_70112306660500'
+  app/controllers/users_controller.rb:23:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:22:in `show'
+
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.5ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (82.5ms)
+
+
+Started GET "/emle/index" for 127.0.0.1 at 2012-01-06 21:55:54 -0600
+  Processing by EmleController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 404 Not Found in 42ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=4):
+  app/controllers/emle_controller.rb:3:in `index'
+
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/emle/index" for 127.0.0.1 at 2012-01-06 21:56:05 -0600
+  Processing by EmleController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 4995ms
+
+NoMethodError (undefined method `welcome_email' for Emailer:Class):
+  app/controllers/emle_controller.rb:4:in `index'
+
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/emle/index" for 127.0.0.1 at 2012-01-06 21:56:34 -0600
+  Processing by EmleController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Rendered emailer/welcome_email.html.erb (0.9ms)
+Rendered emailer/welcome_email.text.erb (1.4ms)
+
+Sent mail to ojimisa@gmail.com (2110ms)
+Date: Fri, 06 Jan 2012 21:56:36 -0600
+From: info@topupgenie.com
+To: ojimisa@gmail.com
+Message-ID: <4f07c2746337b_1a6b3fc44a3304d46831a@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+Subject: Welcome to My Topup Genie
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f07c273c5435_1a6b3fc44a3304d4680a5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f07c273c5435_1a6b3fc44a3304d4680a5
+Date: Fri, 06 Jan 2012 21:56:36 -0600
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f07c2743a92d_1a6b3fc44a3304d468125@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+
+Welcome to topupgenie.com, Muyiwa Jimi-Salami
+===============================================
+ 
+You have successfully signed up to topupgenie.com,
+your username is: 12345.
+ 
+To login to the site, just follow this link: http://ithena.heroku.com/sigin.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f07c273c5435_1a6b3fc44a3304d4680a5
+Date: Fri, 06 Jan 2012 21:56:36 -0600
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f07c27455867_1a6b3fc44a3304d46829c@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Welcome to topupgenie.com, Muyiwa Jimi-Salami</h1>
+    <p>
+      You have successfully signed up to topupgenie.com,
+      your username is: 12345.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://ithena.heroku.com/sigin.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f07c273c5435_1a6b3fc44a3304d4680a5--
+Completed 500 Internal Server Error in 3151ms
+
+Net::SMTPAuthenticationError (535-5.7.1 Application-specific password required. Learn more at               
+):
+  app/controllers/emle_controller.rb:4:in `index'
+
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started GET "/emle/index" for 127.0.0.1 at 2012-01-06 22:02:00 -0600
+  Processing by EmleController#index as HTML
+  [1m[36mUser Load (44.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Rendered emailer/welcome_email.html.erb (91.6ms)
+Rendered emailer/welcome_email.text.erb (1.8ms)
+
+Sent mail to ojimisa@gmail.com (1973ms)
+Date: Fri, 06 Jan 2012 22:02:09 -0600
+From: info@topupgenie.com
+To: ojimisa@gmail.com
+Message-ID: <4f07c3c16d5d7_1aa23fd4011614709377e@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+Subject: Welcome to My Topup Genie
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f07c3c17142_1aa23fd401161470934b3";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f07c3c17142_1aa23fd401161470934b3
+Date: Fri, 06 Jan 2012 22:02:09 -0600
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f07c3c1376a6_1aa23fd40116147093524@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+
+Welcome to topupgenie.com, Muyiwa Jimi-Salami
+===============================================
+ 
+You have successfully signed up to topupgenie.com,
+your username is: 12345.
+ 
+To login to the site, just follow this link: http://ithena.heroku.com/sigin.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f07c3c17142_1aa23fd401161470934b3
+Date: Fri, 06 Jan 2012 22:02:09 -0600
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f07c3c160fcb_1aa23fd4011614709369a@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Welcome to topupgenie.com, Muyiwa Jimi-Salami</h1>
+    <p>
+      You have successfully signed up to topupgenie.com,
+      your username is: 12345.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://ithena.heroku.com/sigin.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f07c3c17142_1aa23fd401161470934b3--
+Completed 500 Internal Server Error in 7553ms
+
+Net::SMTPAuthenticationError (535-5.7.1 Application-specific password required. Learn more at               
+):
+  app/controllers/emle_controller.rb:4:in `index'
+
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.9ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+
+
+Started GET "/emle/index" for 127.0.0.1 at 2012-01-06 22:03:39 -0600
+  Processing by EmleController#index as HTML
+  [1m[35mUser Load (36.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Rendered emailer/welcome_email.html.erb (0.2ms)
+Rendered emailer/welcome_email.text.erb (0.1ms)
+
+Sent mail to ojimisa@gmail.com (1356ms)
+Date: Fri, 06 Jan 2012 22:03:41 -0600
+From: info@topupgenie.com
+To: ojimisa@gmail.com
+Message-ID: <4f07c41d455c0_1aa23fd401d16e50941d8@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+Subject: Welcome to My Topup Genie
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f07c41d3d4f3_1aa23fd401d16e5093854";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f07c41d3d4f3_1aa23fd401d16e5093854
+Date: Fri, 06 Jan 2012 22:03:41 -0600
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f07c41d42909_1aa23fd401d16e50939a4@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+
+Welcome to topupgenie.com, Muyiwa Jimi-Salami
+===============================================
+ 
+You have successfully signed up to topupgenie.com,
+your username is: 12345.
+ 
+To login to the site, just follow this link: http://ithena.heroku.com/sigin.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f07c41d3d4f3_1aa23fd401d16e5093854
+Date: Fri, 06 Jan 2012 22:03:41 -0600
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f07c41d445ac_1aa23fd401d16e5094082@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Welcome to topupgenie.com, Muyiwa Jimi-Salami</h1>
+    <p>
+      You have successfully signed up to topupgenie.com,
+      your username is: 12345.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://ithena.heroku.com/sigin.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f07c41d3d4f3_1aa23fd401d16e5093854--
+Completed 500 Internal Server Error in 2024ms
+
+Net::SMTPAuthenticationError (535-5.7.1 Application-specific password required. Learn more at               
+):
+  app/controllers/emle_controller.rb:4:in `index'
+
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.3ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/Muyiwa/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.4ms)
+
+
+Started GET "/emle/index" for 127.0.0.1 at 2012-01-06 22:04:14 -0600
+  Processing by EmleController#index as HTML
+  [1m[36mUser Load (33.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Rendered emailer/welcome_email.html.erb (41.3ms)
+Rendered emailer/welcome_email.text.erb (0.8ms)
+
+Sent mail to ojimisa@gmail.com (3081ms)
+Date: Fri, 06 Jan 2012 22:04:24 -0600
+From: info@topupgenie.com
+To: ojimisa@gmail.com
+Message-ID: <4f07c4488f7be_1ab63ffe71d39c6c4813f@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+Subject: Welcome to My Topup Genie
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f07c448518cb_1ab63ffe71d39c6c478a1";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f07c448518cb_1ab63ffe71d39c6c478a1
+Date: Fri, 06 Jan 2012 22:04:24 -0600
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f07c4486f775_1ab63ffe71d39c6c47999@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+
+Welcome to topupgenie.com, Muyiwa Jimi-Salami
+===============================================
+ 
+You have successfully signed up to topupgenie.com,
+your username is: 12345.
+ 
+To login to the site, just follow this link: http://ithena.heroku.com/sigin.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f07c448518cb_1ab63ffe71d39c6c478a1
+Date: Fri, 06 Jan 2012 22:04:24 -0600
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f07c4488037f_1ab63ffe71d39c6c48075@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Welcome to topupgenie.com, Muyiwa Jimi-Salami</h1>
+    <p>
+      You have successfully signed up to topupgenie.com,
+      your username is: 12345.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://ithena.heroku.com/sigin.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f07c448518cb_1ab63ffe71d39c6c478a1--
+Rendered emle/index.html.erb within layouts/application (0.6ms)
+Rendered layouts/_header.html.erb (5.2ms)
+Rendered layouts/_footer.html.erb (3.8ms)
+Completed 200 OK in 10416ms (Views: 401.8ms | ActiveRecord: 35.3ms)
+
+
+Started GET "/assets/button.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /button.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/aux.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /aux.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/Dash.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /Dash.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /companies.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/dialog.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /dialog.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/emle.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /emle.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/osx.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /osx.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /pages.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /profile.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /reset.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /screen.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /users.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /sessions.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /style.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/tipsy.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /tipsy.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /jquery.js - 304 Not Modified (93ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /companies.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/emle.js?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /emle.js - 304 Not Modified (93ms)
+
+
+Started GET "/assets/modernizr-2.0.6.min.js?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /modernizr-2.0.6.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /pages.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /sessions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-01-06 22:04:28 -0600
+Served asset /users.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-01-06 22:04:29 -0600
+Served asset /logo.png - 304 Not Modified (12ms)
+
+
+Started GET "/emle/index" for 127.0.0.1 at 2012-01-06 22:07:06 -0600
+  Processing by EmleController#index as HTML
+  [1m[36mUser Load (37.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Rendered emailer/welcome_email.html.erb (50.2ms)
+Rendered emailer/welcome_email.text.erb (1.8ms)
+
+Sent mail to ojimisa@gmail.com (2590ms)
+Date: Fri, 06 Jan 2012 22:07:14 -0600
+From: info@topupgenie.com
+To: ojimisa@gmail.com
+Message-ID: <4f07c4f2b879e_1ac93ff1009b8a6c552da@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+Subject: Welcome to My Topup Genie
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4f07c4f288304_1ac93ff1009b8a6c5491b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4f07c4f288304_1ac93ff1009b8a6c5491b
+Date: Fri, 06 Jan 2012 22:07:14 -0600
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f07c4f29fbe5_1ac93ff1009b8a6c55098@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+
+Welcome to topupgenie.com, Muyiwa Jimi-Salami
+===============================================
+ 
+You have successfully signed up to topupgenie.com,
+your username is: 12345.
+ 
+To login to the site, just follow this link: http://ithena.heroku.com/sigin.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_4f07c4f288304_1ac93ff1009b8a6c5491b
+Date: Fri, 06 Jan 2012 22:07:14 -0600
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4f07c4f2b0361_1ac93ff1009b8a6c55198@Muyiwa-Jimi-Salamis-MacBook.local.mail>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Welcome to topupgenie.com, Muyiwa Jimi-Salami</h1>
+    <p>
+      You have successfully signed up to topupgenie.com,
+      your username is: 12345.<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://ithena.heroku.com/sigin.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+----==_mimepart_4f07c4f288304_1ac93ff1009b8a6c5491b--
+Rendered emle/index.html.erb within layouts/application (0.5ms)
+Rendered layouts/_header.html.erb (4.1ms)
+Rendered layouts/_footer.html.erb (8.8ms)
+Completed 200 OK in 8464ms (Views: 429.1ms | ActiveRecord: 48.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/Dash.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /Dash.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/companies.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /companies.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/button.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /button.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/dialog.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /dialog.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/aux.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /aux.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/emle.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /emle.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/osx.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /osx.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /pages.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /profile.css - 304 Not Modified (76ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /reset.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:17 -0600
+Served asset /scaffolds.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /screen.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /sessions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /style.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/tipsy.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /tipsy.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /jquery.js - 304 Not Modified (59ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /users.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /companies.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/modernizr-2.0.6.min.js?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /modernizr-2.0.6.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/emle.js?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /emle.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /pages.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /sessions.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-01-06 22:07:18 -0600
+Served asset /logo.png - 304 Not Modified (16ms)
