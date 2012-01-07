@@ -1,0 +1,793 @@
+/*================== AUX =========================*/
+#aux_content #main_div{
+  margin-right:10px;
+  margin-left:10px;
+  overflow:hidden;
+}
+.ad
+{
+  margin-top:5px;
+  margin-bottom:2em;
+}
+.section h4{
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 0.5em;
+  padding: 0.3em 0.3em 0.3em 0.5em;
+  color: #2A2B2D;
+  background-color: whiteSmoke;
+  font-size:12px;
+}
+.section h4 a{
+  float:right;
+  font-size:10px;
+}
+
+.user_stats{
+  margin-right:0;
+  margin-bottom:1em;
+}
+
+.section{
+  margin-bottom:2em;
+}
+
+.main_stats .stat {
+  overflow: hidden;
+  color: white;
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.main_stats .stat strong, .flash .stat {
+  margin-left: 0.5em;
+  width: 2.5em;
+  text-align: center;
+  margin-right: 0.6em;
+  padding: 0.1em;
+  margin: 0.2em 0em 0.1em 0.5;
+  background-color: #ADB7CA;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.main_stats .stat span {
+  color: #3E3E3F;
+  font-size:10px;
+}
+
+.section ol,.section ul{
+  margin-left:0px;
+  list-style-type: none;
+}
+
+.section li{
+  display:list-item;
+}
+
+.section ol.lined li span {
+float: left;
+}
+
+.section ol.lined li a {
+display: block;
+float: left;
+margin-left: 0.5em;
+}
+
+#aux_content #leaderboard ol li a {
+width: 10em;
+}
+
+#aux_content #leaderboard ol li span.rank {
+display: block;
+width: 2.2em;
+}
+
+#aux_content #leaderboard ol li span.points {
+color: #878787;
+}
+
+.section ul.lined li, .section ol.lined li {
+overflow: hidden;
+padding: 0.5em 0.5em 0.5em 0.8em;
+border-bottom: 1px solid #D9D9D9;
+}
+
+.invite.section ul.services li.twitter a {
+background-image: url(/images/twitter16.png);
+}
+.invite.section ul.services li.facebook a {
+background-image: url(/images/fb16color.png);
+}
+
+.invite.section ul.services li a {
+display: block;
+height: 16px;
+padding-left: 1.6em;
+display: block;
+background-repeat: no-repeat;
+background-color: transparent;
+background-position: left top;
+}
+.invite.section ul.services {
+margin: 1em 0.8em;
+}
+
+.invite.section ul.services li {
+font-weight: bold;
+margin-bottom: 0.5em;
+}
+/*======================================================*/
+/*=================== buttons.css ======================*/
+button.blue-pill, input.blue-pill {
+  margin: 10px auto 12px auto;
+  background: #A5B8DA;
+  background: -moz-linear-gradient(0% 100% 90deg, #7089B3, #A5B8DA);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#A5B8DA), to(#7089B3));
+  border-top: 1px solid #758FBA;
+  border-right: 1px solid #6C84AB;
+  border-bottom: 1px solid #5C6F91;
+  border-left: 1px solid #6C84AB;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: inset 0 1px 0 0 #AEC3E5;
+  -webkit-box-shadow: inset 0 1px 0 0 #AEC3E5;
+  box-shadow: inset 0 1px 0 0 #AEC3E5;
+  color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 7px 5px 7px;
+  text-align: center;
+  text-shadow: 0 -1px 1px #64799E;
+  text-transform: uppercase;
+  box-shadow: 0px 1px 4px #B9B9B9;
+  -moz-box-shadow: 0px 1px 4px #B9B9B9;
+  -webkit-box-shadow: 0px 1px 4px #B9B9B9;
+}
+
+
+button.blue-pill:hover,
+input.blue-pill:hover
+{
+  background: #9badcc;
+  background: -moz-linear-gradient(0% 100% 90deg, #687fa6, #9badcc);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9badcc), to(#687fa6));
+  border-top: 1px solid #6d86ad;
+  border-right: 1px solid #647a9e;
+  border-bottom: 1px solid #546685;
+  border-left: 1px solid #647a9e;
+  -moz-box-shadow: inset 0 1px 0 0 #a5b9d9;
+  -webkit-box-shadow: inset 0 1px 0 0 #a5b9d9;
+  box-shadow: inset 0 1px 0 0 #a5b9d9;
+  cursor: pointer;
+}
+
+button.blue-pill:active,
+input.blue-pill:active
+{
+  border: 1px solid #546685;
+  -moz-box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eee;
+  -webkit-box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eee;
+  box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eee;
+}
+
+.mod-ui-button
+{
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0px;
+  text-shadow: 0 -1px 1px #64799E;
+}
+
+/* Fb like buttons */
+.uiButton, .uiButtonSuppressed:active, .uiButtonSuppressed:focus, .uiButtonSuppressed:hover {
+  background: #EEE url(http://static.ak.fbcdn.net/rsrc.php/v1/zD/r/B4K_BWwP7P5.png) repeat 0 0;
+  border: 1px solid #999;
+  border-bottom-color: #888;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  cursor: pointer;
+  display: -moz-inline-box;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: normal !important;
+  padding: 2px 6px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.uiButtonConfirm {
+  background-color: #5B74A8;
+  background-position: 0 -48px;
+  border-color: #29447E #29447E #1A356E;
+}
+
+.uiButton .uiButtonText, .uiButton input {
+  background: none;
+  border: 0;
+  color: #333;
+  cursor: pointer;
+  display: -moz-inline-box;
+  display: inline-block;
+  font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0;
+  outline: none;
+  padding: 1px 0 2px;
+  white-space: nowrap;
+}
+
+.uiButtonSpecial .uiButtonText, 
+.uiButtonSpecial input, 
+.uiButtonSpecial.uiButtonDisabled .uiButtonText, 
+.uiButtonSpecial.uiButtonDisabled input, 
+.uiButtonConfirm .uiButtonText, .uiButtonConfirm input, 
+.uiButtonConfirm.uiButtonDisabled .uiButtonText, .uiButtonConfirm.uiButtonDisabled input {
+color: white;
+}
+/* end */
+
+/* Big yellow button */
+.btnYellow {
+  color: #333;
+  text-shadow: 0 1px 0 #FEF397;
+  border: 1px solid #F49E13;
+  background-color: #FFD43F;
+  background-image: -moz-linear-gradient(top,#FFD43F,#FFA942);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#FFD43F),to(#FFA942));
+}
+
+#description .btnYellow {
+  padding: 10px 15px;
+  font-size: 110%;
+}
+
+.btnGreen, .btnYellow, .btnWhite {
+  padding: 2px 7px;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  -moz-border-radius: 4px!important;
+  border-radius: 4px!important;
+}
+/*====================================================*/
+/*==================== dash.css ======================*/
+/* THIS IS THE COLUMN THAT HOLDS Links */
+.arrow-content, #page_content #nav_col ul.feed_filter li a.selected::after{
+    content: " 00a0";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: auto;
+    left: auto;
+}
+#nav_col {
+    width : 173px;
+    padding-bottom:5px;
+    margin-right:1px;
+    overflow:hidden;
+    text-align:right;
+    background:#FAFAFA;
+  }
+/#page_content{
+  width:955px;
+}
+#left-col{
+  float:left;
+  /*position:fixed;*/
+  width:150px;
+  margin-left:-200px;
+}
+#left-col .profile-pic
+{
+  left:50px;
+  position:relative;
+	max-width:70px;
+	max-height:70px;
+}
+  #page_content > ul { overflow: hidden; }
+  #page_content > ul li {
+    float: left;
+    display:list-item;
+    margin-right: 1.2em; 
+  }
+  #page_content > ul li:last-child { margin-right: 0; }
+  #page_content #nav_col, #page_content #social_col { margin-top: 29px; }
+  #page_content #nav_col {
+    border-top: 1px solid #cccccc;
+    text-align: right; 
+  }
+  #page_content #nav_col ul.feed_filter {
+    margin-right: 0.4em;
+    margin-top: 0.8em;
+    font-size: 1.1em; 
+  }
+  #page_content #nav_col ul.feed_filter li { overflow: visible; }
+  #page_content #nav_col ul.feed_filter li a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-right: 0.5em;
+    padding: 0.33em 0.5em; 
+    color:#333;
+  }
+  #page_content #nav_col ul.feed_filter li a:hover { color: #a7a7a7; }
+  #page_content #nav_col ul.feed_filter li a.selected {
+    position: relative;
+    opacity:0.45;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    background-color: #434c56;
+    color: white;
+    width: 82%; 
+    margin-bottom:5px;
+  }
+  #nav_col li {
+  list-style: none;
+  }
+  #page_content #nav_col ul.feed_filter li a.selected:after {
+    z-index: 1;
+    top: 0px;
+    /* value = - border-top-width - border-bottom-width */
+    right: -20px;
+    /* controls horizontal position */
+    background-color: transparent;
+    border-width: 14px 10px;
+    /* vary these values to change the angle of the vertex */
+    border-style: solid;
+    border-color: transparent transparent transparent #434c56;
+    }
+    #page_content #nav_col ul.feed_filter li a.selected.smooth:after {
+    border-width: 11px;
+    right: -21px; 
+  }
+  #page_content #nav_col ul.secondary_links { margin-top: 0.5em; }
+  #page_content #nav_col ul.secondary_links li:first-child { border-top: 1px solid #d9d9d9; }
+  #page_content #nav_col ul.secondary_links li {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 0.6em 1.2em 0.6em 0.5em;
+    background-color: #f5f5f5;
+    overflow: hidden; 
+  }
+  #page_content #nav_col ul.secondary_links li span.counter {
+    float: left;
+    margin-left: 0.5em;
+    font-size: 0.9em;
+    color: white;
+    font-weight: bold;
+    padding: 1px 6px 2px 6px;
+    background-color: #4f7fb4;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px; 
+  }
+  #page_content #nav_col ul.secondary_links li.selected {
+    background-color: white;
+    font-weight: bold;
+    color: #333333; 
+  }
+  #page_content #nav_col ul.secondary_links li.selected a {
+    color: #333333;
+    font-weight: bold; 
+  }
+  #page_content #nav_col ul.secondary_links.expanded { margin-top: 0; }
+  #page_content #nav_col ul.secondary_links.expanded li:first-child { border-top: 0; }
+  
+/*End of main body wrapper */
+/*===================================================*/
+/*================= dialog.css ======================*/
+.w4
+{
+	width:430px;
+}
+
+.dialog
+{
+	background:rgba(0,0,0,0.5);
+	border-radius:10px;
+	padding:10px;
+	overflow:hidden;
+	z-index:99;
+	cursor:default;
+}
+    .dialog .dialog-wrapper
+    {
+        background:white;
+        border-radius:3px;
+        float:left;
+        padding:7px 10px 10px;
+        max-width:100%;
+        width:auto;
+    }
+    .dialog .head
+    {
+        height:22px;
+        overflow:hidden;
+    }
+
+    .form-buttons
+    {
+        clear:both;
+        float:none;
+        margin:10px 0px 0px;
+        text-align:right;
+        width:auto;
+        background:#D0D2D3;
+        background:#F2F2F2;
+        border-top:1px solid grey;
+        padding-right:5px;
+    }
+
+#compose_update
+{
+    background-color:#19558D;
+    border:1px solid black;
+    color:white;
+    padding:5px;
+    position:fixed;
+    cursor:pointer;
+    text-shadow:#19558d 0px -1px;
+}
+.row{
+    clear: both;
+    float: left;
+    width: 100%;
+}
+div.soc_networks_buttons_wrapper{
+    margin: 0 0 5px;  
+}
+    .soc_networks_buttons{
+        float: left;
+        font-size: .8em;
+        list-style: none;
+        margin: 0; 
+    }
+    .soc_networks_buttons .soc_networks_button {
+        background: url(http://d1vgw4v7ja2ido.cloudfront.net/-b44d0948a4b53532.gif) repeat-x top left;
+        border-bottom: 1px solid #E0E0E0;
+        float: left;
+    }
+    .soc_networks_buttons li {
+        margin-bottom: 0;
+    }
+    .soc_networks_buttons .soc_networks_button a {
+        border: 1px solid #999;
+        border-bottom: 1px solid #666;
+        cursor: pointer;
+        float: left;
+        font-family: Georgia,default;
+        font-size: 11px;
+        font-weight: bold;
+        height: 14px;
+        line-height: 11px;
+        margin-right: -1px;
+        padding: 4px 2px 3px;
+        text-align: center;
+        text-shadow: 0 1px white;
+        width: 18px;
+    }
+    .qtext_editor_button_active,.soc_networks_buttons .soc_networks_button a:active {
+        background-color: silver;
+    }
+    .soc_networks_buttons .soc_networks_sep {
+        border: 0;
+        float: left;
+        padding: .2em 0 .4em;
+        width: .8em;
+    }
+    
+.notification
+{
+  background:none repeat scroll 0 0 #FFF6BF;
+  border:1px solid #F7DA77;
+  text-align: center;
+}
+div#retweet_container{
+    margin-top:5px;
+}
+    #retweet_container div#retweet_image{
+        float:left;
+        width:15%;
+        margin-right:10px;
+    }
+    #retweet_container div#retweet_message{
+        float:left;
+        width:75%;
+    }
+/*========================================================*/
+/*
+ * SimpleModal OSX Style Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: osx.css 254 2010-07-23 05:14:44Z emartin24 $
+ */
+
+#osx-modal-content, #osx-modal-data {display:none;}
+
+/* Overlay */
+#osx-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#osx-container {background-color:#eee; color:#000; font: 16px/24px "Lucida Grande",Arial,sans-serif; padding-bottom:4px; width:600px; -moz-border-radius-bottomleft:6px; -webkit-border-bottom-left-radius:6px; -moz-border-radius-bottomright:6px; -webkit-border-bottom-right-radius:6px; border-radius:0 0 6px 6px; -moz-box-shadow:0 0 64px #000; -webkit-box-shadow:0 0 64px #000; box-shadow:0 0 64px #000;}
+#osx-container a {color:#ddd;}
+#osx-container #osx-modal-title {color:#000; background-color:#ddd; border-bottom:1px solid #ccc; font-weight:bold; padding:6px 8px; text-shadow:0 1px 0 #f4f4f4;}
+#osx-container .close {display:none; position:absolute; right:0; top:0;}
+#osx-container .close a {display:block; color:#777; font-weight:bold; padding:6px 12px 0; text-decoration:none; text-shadow:0 1px 0 #f4f4f4;}
+#osx-container .close a:hover {color:#000;}
+#osx-container #osx-modal-data {font-size:12px; padding:6px 12px;}
+#osx-container h2 {margin:10px 0 6px;}
+#osx-container p {margin-bottom:10px;}
+#osx-container span {color:#777;}
+/*=======================================================*/
+/*===================== profile.css =====================*/
+/** THIS HOLDS ALL THE CONTENT ON THE PAGE ****/
+#profile-content
+{
+	margin-top: -160px;
+	margin-bottom:10px;
+	width:981px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+	overflow:hidden;
+	margin-bottom:50px;	
+	zoom:1;
+}
+
+/** THIS HOLDS THE LINKS THAT CHANGE THE CONTENT ON THE PAGE **/
+/*the z-index is set so it looks like the links spill into the data*/
+.profile-navigator
+{
+	margin-right:-12px;
+	z-index:10;
+	position:relative;
+}
+	.profile-navigator a
+	{
+		text-decoration:none;
+	}
+
+	.profile-navigator a {
+		display: block;
+		min-width: 40px;
+	}
+
+	.profile-navigator a:hover {
+		background: #EFEFEF;
+		border-right: none;
+	}
+
+	.profile-navigator li.panel a.active  {
+		 background-color: #FFF;
+		 border-right: none;
+		 margin-right:-1px;
+		 font-weight: bold;
+	}
+
+	.profile-navigator li.panel a {
+		background: #F2F2F2;
+		border:1px solid #ccc;
+		border-bottom: none;
+		border-right: none;
+		text-align: left;
+		padding: 10px;
+		font-size: 0.9em;
+		color: #333;
+	}
+
+	.profile-navigator li.panel:last-child a {
+		border-bottom: 1px solid #CCC;
+	}
+
+	.profile-navigator li.resource a {
+		background-color:#666;
+		color: #FFF;
+		text-decoration: underline;
+		-moz-box-shadow:-1px 1px 4px 0 #222 inset;
+		box-shadow: inset -1px 1px 4px 0px #222;
+		-webkit-box-shadow: inset -1px 1px 4px 0px #222;
+
+	}
+
+.facebook_icon_small
+{
+	height:19px;
+	padding-left:19px;
+	width:0;
+	background-position: -13px -667px;
+}
+
+.twitter_icon_small
+{
+	height:19px;
+	padding-left:19px;
+	width:0;
+	background-position: -13px -647px;
+}
+
+.right-arrow_icon
+{
+	height:19px;
+	padding-left:19px;
+	width:0;
+	background-position: -13px -875px;
+}
+
+/**** THIS CONTAINS THE SECONDARY MAIN COMMENTS ***/
+#secondary-content
+{
+	float:left;
+	width:787px;
+	min-height:600px;
+	/*border-right:1px solid black;*/
+}
+
+/**** THIS IS AT THE TOP OF THE PAGE AND CONTAINS THE USERS PROFILE BLURB ****/
+#profile-blurb
+{
+	padding:5px;
+	border:none;
+}
+
+	#profile-blurb h1
+	{
+		font-size:15px;
+		font-weight:bold;
+	}
+
+#bio
+{
+}
+#first-col
+{
+	float:left;
+	padding-right:10px;
+}
+
+/***** THIS IS WHERE THE MAIN RECENT INFO WOULD GO ***/
+#profile-box
+{
+	background-color:#F9F9F9;
+	/*border:1px solid #ccc;*/
+	overflow:hidden;
+	position:relative;
+	width:179px;
+}
+
+/***** DIV WHERE THE PROFILE PIC SITS ****/
+.profile-pic
+{
+	float:left;
+	width:179px;
+	margin-right:10px;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+
+/*** THIS CONTAINS THE STREAM TABS BACKGROUND ****/
+.streams-tab-background
+{
+	background-color:#F8F8F8;
+	background-color:#F2F2F2;
+	float:left;
+	padding-bottom:0;
+	position:relative;
+	width:519px;
+}
+
+	/**** THIS CONTAINS THE STREAM TABS ***/
+	.stream-tabs
+	{
+		border-bottom:1px solid #EEE;
+		border-bottom: 1px solid #CCC;
+		clear:both;
+		display:block;
+		height:30px;
+		list-style-type:none;
+		margin:0px;
+		padding:0px 10px;
+	}
+
+	.stream-tabs .stream-tab
+	{
+		border-top-left-radius:4px 4px;
+		border-top-right-radius:4px 4px;
+		cursor:pointer;
+		float:left;
+		margin:0px;
+		padding:0px;
+		position:relative;
+	}
+
+	.stream-tabs .tab-text
+	{
+		-webkit-border-radius:inherit;
+		border:1px solid transparent;
+		border-radius:inherit;
+		cursor:pointer;
+		display:block;
+		line-height:24px;
+		overflow:hidden;
+		padding:3px 10px 2px;
+		text-decoration:none;
+		text-shadow:white 0px 1px 0px;
+		font-size:13px;
+	}
+
+	.stream-tab-active
+	{
+		background-color:#fff;
+		color:black;
+		font-weight:bold;
+		border: 1px solid #CCC;
+		border-bottom:none;
+	}
+
+/*** THIS IS WHERE THE FEEDS WOULD GO ***/
+#feeds
+{
+	width:519px;
+	min-height:300px;
+	float:left;
+	background-color:#fff;
+	-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;
+	/*border:1px dotted #B3B3B3;*/
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+	#feeds-data
+	{
+		border: 1px solid #CCC;
+	}
+
+/***** THIS IS THE THIRD COLUMN ON THE PAGE ***/
+#third-col
+{
+	background-color:#Fff;
+	background-color:#E8F3FB;
+	background-color:#EDF2F2;
+	float:right;
+	overflow:hidden;
+	padding:10px;
+	position:relative;
+	border:1px dotted #B3B3B3;
+	border-left:3px solid #5599BB;
+	border-left:3px solid #B3B3B3;
+	width:234px;
+	min-height:600px;
+}
+/*================================================*/
+/*=================== tipsy ======================*/
+.tipsy { padding: 5px; font-size: 10px; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat; }
+  .tipsy-inner { padding: 4px 5px; background-color: black; color: white; max-width: 200px; text-align: center; }
+  .tipsy-north { background-image: url(/images/tipsy-north.gif); background-position: top center; }
+  .tipsy-south { background-image: url(/images/tipsy-south.gif); background-position: bottom center; }
+  .tipsy-east { background-image: url(/images/tipsy-east.gif); background-position: right center; }
+  .tipsy-west { background-image: url(/images/tipsy-west.gif); background-position: left center; }
+/*===============================================*/
