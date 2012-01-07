@@ -1,5 +1,7 @@
 IthenaApp::Application.routes.draw do
 
+  get "emle/index"
+
   resources :companies
 
   resources :users
