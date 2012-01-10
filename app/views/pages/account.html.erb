@@ -35,7 +35,7 @@
 		    <th>Number</th>
 		    <th></th>
 		  </tr>
-			<tr style="border:1px solid grey;">
+			<tr>
 				<%= form_for @mobile do |f| %>
 					<td><%= f.text_field :mobile_alias, options={:size=>'10'} %></td>
 					<td><%= f.text_field :mobile_number, options={:size=>'10'} %></td>
@@ -73,12 +73,12 @@
 				<div class="field">
 		    	<%= f.label :expiration_date %><br />
 					<%= f.select(:expdate_month, options_for_select([['Month:', -1], ['January', "1"], ['February', "2"],['March', "3"], 
-																						['April', "4"],['May', "5"], ['June', "6"],['July', "7"], ['August', "8"],
-																						['September', "9"], ['October', "10"],['November', "11"], ['December', "12"]],@user_card.expdate_month)) %>
-																						<%= f.select(:expdate_year, options_for_select([['Year:', -1], ['2011', '2011'], 
-																						['2010', '2010'],['2009', '2009'], ['2008', '2008'],
-																						['2007', '2007'], ['2006', '2006'],['2005', '2005'], ['2004', '2004'],['2003', '2003'], 
-																						['2002', '2002'],['2001', '2001'], ['2000', '2000']], @user_card.expdate_year)) %>
+																					['April', "4"],['May', "5"], ['June', "6"],['July', "7"], ['August', "8"],
+																					['September', "9"], ['October', "10"],['November', "11"], ['December', "12"]],@user_card.expdate_month)) %>
+					<%= f.select(:expdate_year, options_for_select([['Year:', -1], ['2011', '2011'], 
+																					['2010', '2010'],['2009', '2009'], ['2008', '2008'],
+																					['2007', '2007'], ['2006', '2006'],['2005', '2005'], ['2004', '2004'],['2003', '2003'], 
+																					['2002', '2002'],['2001', '2001'], ['2000', '2000']], @user_card.expdate_year)) %>
 				</div>
 				<div class="field">
 					<%= f.label :cvv_number %><br />
@@ -130,4 +130,55 @@
 					</div>
 			<% end %>
 		<% end %>
+	</div>
+	<div id="refer-friend-box" style="display:none;">
+		<div id='top-bar'>
+			<h3>Refer a Friend</h3>
+			<p> 
+				Lorem ipsum dolor sit amet, consecteur adipiscing elit. Mauris dapibus feugiat augue,
+				at pretium tellus porta in. Fusce scelerisque por posuere risus vel euismod. Sed sit
+			</p>
+		</div>
+		<div id='left' class='float-left'>
+			<h4>Invite by Email</h4>
+			<table>
+				<tr>
+					<th></th>
+			    <th></th>
+			  </tr>
+				<tr>
+					<td>
+						<%= label_tag "Email" %>
+					</td>
+					<td>
+						<%= text_field_tag "email" %>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<%= label_tag "Password" %>
+					</td>
+					<td>
+						<%= text_field_tag "password" %>
+					</td>
+				</tr>
+			</table>
+			<div class='float-right' style="margin-bottom:22px;">
+				<%= submit_tag "Retrieve contacts" %>
+			</div>
+			<hr>
+			<h5>Or invite email addresses</h5>
+			<%= text_area_tag "email_addresses"%>
+			<%= submit_tag "Send Invites" %>
+		</div>
+		<div id='right' class='float-right'>
+			<h4>Invite Facebook and Twitter Friends</h4>
+			<%= text_area_tag "email_addresses"%>
+			<%= submit_tag "Share on facebook" %>
+			<%= submit_tag "Tweet on Twitter" %>
+			<hr>
+			<h5>Or use this link with Friends</h5>
+			<%= text_field_tag "copy-link"%>
+			<%= submit_tag "Copy" %>
+		</div>
 	</div>

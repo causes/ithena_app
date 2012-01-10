@@ -5,6 +5,15 @@
     padding: 3px;
 }
 
+/* Sign in Box on the home page */
+.homepage-boxes {
+    float:left;
+    border: 1px solid black;
+    padding: 5px;
+    width: 200px;
+    margin:5px;
+}
+
 #middle-column {
     width:568px;
     min-height:300px;
@@ -27,4 +36,66 @@
    min-height: 50px; 
    width:100px;
    margin-right:10px;
+}
+
+/* REFER A FRIEND */
+#refer-friend-box{
+    background:white;
+    border:1px solid black;
+    overflow:hidden;
+    width:600px;
+    padding:20px;
+    #top-bar{
+        width:100%;
+    }
+    #left{
+        width:50%;
+        label{
+            margin-top:-40px;
+            text-align:center;
+        }
+    }
+    #right{
+        width:48%;
+    }
+    textarea{
+        width:90%;
+        height:100px;
+    }
+}
+
+/* CHOOSE PERSONAL OR COMPANY REGISTRATION */
+#signup-account-type{
+    background:white;
+    border:1px solid black;
+    overflow:hidden;
+    width:600px;
+    padding:20px;
+    #top-bar{
+        width:100%;
+    } 
+}
+
+#personal-information{
+    background:white;
+    border:1px solid black;
+    overflow:hidden;
+    width:600px;
+    padding:20px;
+    z-index:1003;
+    #top-bar{
+        width:100%;
+    }
+}
+
+.showblock{
+    display:block;
+}
+
+.hide{
+    display:none;
+}
+
+.hideh{
+    font-size:50px;
 }

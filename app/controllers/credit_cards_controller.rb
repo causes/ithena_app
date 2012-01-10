@@ -4,7 +4,6 @@ class CreditCardsController < ApplicationController
   # POST /cards
   # POST /cards.json
   def create
-    puts "yeah**************************"
     @card  = current_user.build_credit_card(params[:credit_card])
     if @card.save
       flash[:success] = "New Card created!"

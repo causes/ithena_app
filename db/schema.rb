@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120106014940) do
+ActiveRecord::Schema.define(:version => 20120110041035) do
 
   create_table "cards", :force => true do |t|
     t.integer  "card_number"
@@ -71,6 +71,8 @@ ActiveRecord::Schema.define(:version => 20120106014940) do
     t.string   "year"
     t.string   "network"
     t.string   "phone_manufacturer"
+    t.string   "first_name"
+    t.string   "last_name"
   end
 
 end

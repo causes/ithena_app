@@ -4,6 +4,7 @@ class PagesController < ApplicationController
   def home
     @title = "Home"
     @current_user = current_user #we check in the view if this value is valid and show nav col as needed
+    @user = User.new #For signup purposes
   end
 
   def account
@@ -13,7 +14,6 @@ class PagesController < ApplicationController
     @user_mobiles = current_user.mobiles
     @mobile = Mobile.new
     @user_card = current_user.credit_card
-    puts @user_card
     @card = CreditCard.new #fallback to this in the view if @user_cards is empty
   end
 

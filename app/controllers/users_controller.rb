@@ -16,8 +16,9 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @user_mobiles = @user.mobiles
-    @mobile = Mobile.new
-    @card = Card.new
+    @mobile = Mobile.new    
+    @user_card = @user.credit_card
+    @card = CreditCard.new #fallback to this in the view if @user_card is empty
 
     respond_to do |format|
       format.html { render "pages/account" } #account.html.erb

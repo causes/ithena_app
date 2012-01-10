@@ -11,6 +11,7 @@
   <title><%= title %></title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
+	<script src='https://github.com/janl/mustache.js/raw/master/mustache.js'></script>
   <%= csrf_meta_tags %>
   <meta name="description" content="">
   <meta name="author" content="">
@@ -41,6 +42,7 @@
 								<li><a href=<%= edit_user_path(@current_user)%> id="websites" class="filter_link smooth">Edit Account</a></li>
 								<li><a href="/history" id="codegen" class="filter_link smooth">Transaction History</a></li>
 								<li><a href="/bonuses" id="examples" class="filter_link smooth">Bonuses</a></li>
+								<li><a href="#" id="refer-friend" class="filter_link smooth">Refer Friend</a></li>
 							</ul>
 						</div>
 					</div>

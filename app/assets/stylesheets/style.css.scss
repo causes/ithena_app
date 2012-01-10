@@ -349,16 +349,6 @@ a {
     margin:auto;
 }
 
-/* Sign in Box on the home page */
-.homepage-boxes {
-    float:left;
-    border: 1px solid black;
-    padding: 5px;
-    width: 200px;
-    height: 220px;
-    margin:5px;
-}
-
 /* Float left and right */
 .float-left {
     float:left;
@@ -373,6 +363,28 @@ a {
     min-height:50px;
 }
 
+/* CENTER TEXT */
+.center {
+    text-align: center;
+}
+
+/* Some form information */
+.input-label {
+    width: 110px;
+    height: 22px;
+    line-height:22px;
+    float: left;
+    clear:left;
+}
+
+.input-content{
+    width: 220px;
+    float: left;
+}
+
+.input-content, .input-label{
+    margin-bottom:5px;
+}
 
 
 /* ==|== non-semantic helper classes ========================================
